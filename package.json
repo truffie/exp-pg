@@ -1,0 +1,20 @@
+{
+  "name": "2024server",
+  "version": "1.0.0",
+  "description": "edu server project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "author": "truffie",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^8.56.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3",
+    "prettier": "^3.1.1"
+  }
+}
